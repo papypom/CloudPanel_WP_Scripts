@@ -20,3 +20,4 @@ sudo update-alternatives --set phar.phar /usr/bin/phar.phar7.4
 
 The files in the cloudpanel folder can be copied to the /home/cloudpanel folder and are destined to be used by CRON (which can be set in CloudPanel). The nightly file saves the whole Wordpress file folder in a single encrypted tar.gz.enc file, which can then be stored on your favorite cloud storage (Backblaze B2 works great). The monthly & weekly file save the latest file to the monthly and weekly folder, respectively.
 
+Also, the scripts require the sample_secrets.sh to be renamed to secrets.sh and updated with the root user of your DB. Details in the file itself.
