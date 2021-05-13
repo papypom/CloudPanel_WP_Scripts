@@ -3,6 +3,7 @@
 This is a few scripts I'm using to improve my workflow with [CloudPanel.io](https://www.cloudpanel.io/)
 
 They require to have a sudo ssh access, and WP CLI installed and given the 'wp' name - which can be done with the following commands :
+
 `curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 chmod +x wp-cli.phar
 sudo mv wp-cli.phar /usr/local/bin/wp`
